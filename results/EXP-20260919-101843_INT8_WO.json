@@ -1,0 +1,31 @@
+{
+  "experiment_id": "EXP-20260919-101843",
+  "timestamp": "2026-09-19 10:18:43",
+  "model": "Qwen3-8B",
+  "method": "INT8_WO",
+  "bits": 8,
+  "group_size": null,
+  "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU",
+  "vram_gb": 7.95953369140625,
+  "software": {
+    "python": "3.11.9",
+    "pytorch": "2.11.0+cu128",
+    "transformers": "5.17.0",
+    "torch_cuda": "12.8"
+  },
+  "metrics": {
+    "model_directory_size_gb": 15.27133034914732,
+    "load_time_s": 85.90644990000874,
+    "peak_vram_gb": 9.404852867126465,
+    "mean_generation_time_s": 422.4994832999946,
+    "median_generation_time_s": 422.6422619000077,
+    "mean_decode_tok_s": 0.3029592381487922,
+    "output_tokens": 128
+  },
+  "protocol": {
+    "prompt": "Explain what LLM quantization is in simple terms.",
+    "max_new_tokens": 128,
+    "warmup_runs": 1,
+    "benchmark_runs": 3
+  }
+}
